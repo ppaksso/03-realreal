@@ -4,16 +4,13 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	int input_int;
-	float input_float;
-	
-	printf("정수를 입력하시오:");
-	scanf("%d", &input_int);
-	
-	printf("소수를 입력하시오:");
-	scanf("%f", &input_float);
-	
-	printf("integer : %d, float : %f\n", input_int,input_float);
+	char c;
+     int i;
+     printf("input a number :");
+     scanf("%c",&c);
+     
+     i=text - '0'
+     prinf("The input number is %i\n",i)
 	 
 	return 0;
 	
